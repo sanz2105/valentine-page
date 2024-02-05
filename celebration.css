@@ -1,0 +1,51 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.celebration-container {
+    text-align: center;
+    background-color: #ff69b4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 3rem;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.cartoon-container {
+    display: flex;
+    justify-content: center;
+}
+
+.cartoon-container img {
+    width: 200px;
+    height: auto;
+    margin: 0 10px;
+    animation: cartoonFloat 2s ease-in-out infinite alternate;
+}
+
+@keyframes cartoonFloat {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
